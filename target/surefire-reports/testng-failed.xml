@@ -5,7 +5,7 @@
     <classes>
       <class name="JenkinsLayer.LaunchTestSalesForce">
         <methods>
-          <include name="LaunchTwitter"/>
+          <include name="LaunchSF"/>
         </methods>
       </class> <!-- JenkinsLayer.LaunchTestSalesForce -->
     </classes>

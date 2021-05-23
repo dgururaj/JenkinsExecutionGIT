@@ -18,7 +18,7 @@ public void LaunchSF() {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://test.salesforce.com/");
-		driver.findElement(By.xpath("//input[@name='una']")).click();
+		//driver.findElement(By.xpath("//input[@name='una']")).click();
 		driver.close();
 	}
 
