@@ -11,6 +11,7 @@ public class LaunchTestSalesForce {
 
 	@Test
 public void LaunchSF() {
+		System.out.println("SalesForce");
 		WebDriver driver;
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 		driver = new ChromeDriver();
